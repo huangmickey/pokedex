@@ -37,8 +37,9 @@ export default function Home() {
   };
 
   return (
-    <main>
 
+    <main>
+      <img src='/pokedex.png'></img>
       <form action="" className={styles.search_form} onSubmit={handleSearch}>
         <div className={styles.input_control}>
           <input
